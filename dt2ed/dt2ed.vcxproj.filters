@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI">
+      <UniqueIdentifier>{48aaa23c-7d1f-4423-8211-b0746d46db6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI\Wrapper">
+      <UniqueIdentifier>{afdf1667-5038-43f1-bdab-c7575ceb6a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI\Wrapper\Controls">
+      <UniqueIdentifier>{e48fcb72-95f9-413d-84e4-88712cb4da2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI\Wrapper\Controls\Menu">
+      <UniqueIdentifier>{dc6e8fe3-b066-4490-88c3-68f1ca2228b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI\Wrapper\Controls\WinPane">
+      <UniqueIdentifier>{dc6e8fe3-b066-4490-88c3-68f1ca2228ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI\Dialogs">
+      <UniqueIdentifier>{fbeb34cc-7dca-427c-9611-fe330021b5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI">
+      <UniqueIdentifier>{1640ef18-45ca-4e7c-af0c-f2f42917cd7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI\Wrapper">
+      <UniqueIdentifier>{68025c88-670b-4000-8a7a-d1df7eb57c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI\Wrapper\Controls">
+      <UniqueIdentifier>{b94f1da4-6def-40ef-a154-9e26097ff870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI\Wrapper\Controls\Menu">
+      <UniqueIdentifier>{e08d9168-0e90-4d12-8636-3c87603d96d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI\Wrapper\Controls\WinPane">
+      <UniqueIdentifier>{e08d9168-0e90-4d12-8636-3c87603d96df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI\Dialogs">
+      <UniqueIdentifier>{501cb702-ce6c-4d3f-8510-5c9e5066c26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\NES">
+      <UniqueIdentifier>{2d90c6a3-c727-4d6a-bd39-b162df65b8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\NES">
+      <UniqueIdentifier>{28243a78-a93e-46ce-94da-b2869e0210bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GUI\NesCanvas">
+      <UniqueIdentifier>{fe3e4628-07aa-4174-9c45-6d018666820e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GUI\NesCanvas">
+      <UniqueIdentifier>{ceb26c8e-da7d-4099-bb63-bee2dc3ca99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\NES\NesEditor">
+      <UniqueIdentifier>{267575db-b441-4c72-9a56-3d37603eaab3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dt2ed.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\cdialog.cpp">
+      <Filter>Sources\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\cfont.cpp">
+      <Filter>Sources\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\cpropsheet.cpp">
+      <Filter>Sources\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\csizeanchor.cpp">
+      <Filter>Sources\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\bitmap.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cbufview.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ccombobox.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ccontrol.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\clistview.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\crebar.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctoolbar.cpp">
+      <Filter>Sources\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cmainwnd.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cmainwndhelper.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\caboutdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesFile.cpp">
+      <Filter>Sources\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\NesCanvas\CNesCanvas.cpp">
+      <Filter>Sources\GUI\NesCanvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesRooms.cpp">
+      <Filter>Sources\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cchooseleveldlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\ctilesetdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cblockeditordlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\NesCanvas\CNesTileImg.cpp">
+      <Filter>Sources\GUI\NesCanvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesTiles.cpp">
+      <Filter>Sources\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\ctileseditdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CTilesCreator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\clzw.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cselslotdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cobjectinsertdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\cnestexteditor.cpp">
+      <Filter>Sources\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cnestexteditordlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cmainwndctl.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cmainwndcanvas.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cgamesettingsdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\clevelsettingsdlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\cnesdata.cpp">
+      <Filter>Sources\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesGraphics.cpp">
+      <Filter>Sources\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cgfxeditordlg.cpp">
+      <Filter>Sources\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_Base.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_Loader.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_Render.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_Patcher.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_Interface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_HiddenSlotsInterface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_ObjectsInterface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_RoomsInterface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_MuSecretInterface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_BridgeInterface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NesEditor\CNesEditor_LevelInterface.cpp">
+      <Filter>Sources\NES\NesEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\CMenuWrapper.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\CWinPaneScroller.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="h\precomp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\cdialog.h">
+      <Filter>Headers\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\cfont.h">
+      <Filter>Headers\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\cpropsheet.h">
+      <Filter>Headers\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\csizeanchor.h">
+      <Filter>Headers\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\bitmap.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\cbufview.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ccombobox.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CControl.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\clistview.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\crebar.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctoolbar.h">
+      <Filter>Headers\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cmainwnd.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\caboutdlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesFile.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesEditor.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\NesCanvas\CNesCanvas.h">
+      <Filter>Headers\GUI\NesCanvas</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesRooms.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cchooseleveldlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\ctilesetdlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cblockeditordlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\NesCanvas\cnestileimg.h">
+      <Filter>Headers\GUI\NesCanvas</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesTiles.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\ctileseditdlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\CTilesCreator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="h\clzw.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cselslotdlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CObjectInsertDlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cnestexteditor.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cnestexteditordlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cgamesettingsdlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\clevelsettingsdlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\cnesdata.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesPatchEnum.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesGraphics.h">
+      <Filter>Headers\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cgfxeditordlg.h">
+      <Filter>Headers\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CMenuWrapper.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\CWinPaneScroller.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dt2ed.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\216.bmp">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="docs\10.bmp">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="docs\100.bmp">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="docs\102.bmp">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="docs\104.bmp">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="docs\106.bmp">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="docs\11.PNG">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="dt2ed.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="docs\tiles.lzw" />
+    <None Include="docs\scrooge.lzw" />
+    <None Include="docs\layer_icons.png" />
+    <None Include="docs\patcher.urp" />
+  </ItemGroup>
+</Project>
